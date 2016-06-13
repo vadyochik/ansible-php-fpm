@@ -1,5 +1,6 @@
 ---
 php_fpm_ini_path: "/etc/php-{{ php_fpm_version }}.ini"
+php_fpm_opcache_ini_path: "/etc/php-{{ php_fpm_version }}.d/10-opcache.ini"
 php_fpm_config_path: "/etc/php-fpm-{{ php_fpm_version }}.conf"
 php_fpm_pool_d: "/etc/php-fpm-{{ php_fpm_version }}.d"
 
